@@ -1,6 +1,11 @@
 {
   "name": "md-links",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "engines": {
     "node": ">=16.x"
   },
@@ -8,5 +13,32 @@
     "createdAt": "2022-11-16T21:49:06.371Z",
     "version": "5.4.0",
     "commit": "14aeca030be012fc987dcb1c604bbbcb0fdd325e"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorenaguillen/DEV001-md-links.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "Lorena Guillen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lorenaguillen/DEV001-md-links/issues"
+  },
+  "homepage": "https://github.com/Lorenaguillen/DEV001-md-links#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "node-fetch": "^2.6.7"
+  },
+  "bin": {
+    "md-links": "./cli.js"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
