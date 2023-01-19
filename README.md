@@ -8,7 +8,7 @@ Con este comando podrás identificar si tus archivos se encuentran dentro de dir
 
 ![Flujograma MDLinks CLI](https://user-images.githubusercontent.com/114018284/213539439-dc419587-79ef-4cff-a5d6-dd7c75994ff8.png)
 
-*Este comando podrás instalarlo con: `npm install md-links-lorenaguillen`
+*Este comando podrás instalarlo con: `npm i md-links-lorenaguillen`
 
 # Usándolo con API y CLI
 Para utilizarlo, debes ejecutar el comando `md-links <nombre de la ruta>`
