@@ -1,8 +1,8 @@
 {
-  "name": "md-links",
+  "name": "md-links-lorenaguillen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "md-link module",
+  "main": "md_link.js",
   "directories": {
     "test": "test"
   },
