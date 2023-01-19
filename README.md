@@ -1,5 +1,33 @@
 # Markdown Links
 
+# Bienvenido a md-links
+Este proyecto fue creado para solucionar problemas. Ya que te ayudará a encontrar links dentro de los archivos .md.
+Con este comando podrás identificar si tus archivos se encuentran dentro de directorios y buscará de manera recursiva hasta encontrar todos los links. También verificarás si las rutas son válidas, el total de links, los links únicos y cuántos de estos links están rotos.
+
+![Flujograma MDLinks API](https://user-images.githubusercontent.com/114018284/213539407-84b41913-c04b-4c01-9a90-93519e5412d3.png)
+
+![Flujograma MDLinks CLI](https://user-images.githubusercontent.com/114018284/213539439-dc419587-79ef-4cff-a5d6-dd7c75994ff8.png)
+
+*Este comando podrás instalarlo con: `npm install md-links-lorenaguillen`
+
+# Usándolo con API y CLI
+Para utilizarlo, debes ejecutar el comando `md-links <nombre de la ruta>`
+
+Ejemplo 1 `md-links <nombre de la ruta>`:
+<img width="814" alt="Captura de Pantalla 2023-01-19 a la(s) 2 26 38 p  m" src="https://user-images.githubusercontent.com/114018284/213541494-e53b0248-6a42-4346-92f7-387d4a7a5032.png">
+
+Ejemplo 2 `md-links <nombre de la ruta> --validate`:
+<img width="814" alt="Captura de Pantalla 2023-01-19 a la(s) 2 26 59 p  m" src="https://user-images.githubusercontent.com/114018284/213541564-eec70cdd-67ce-41b7-985b-dd2863217b57.png">
+
+Ejemplo 3 `md-links <nombre de la ruta> --stats`:
+<img width="658" alt="Captura de Pantalla 2023-01-19 a la(s) 2 27 31 p  m" src="https://user-images.githubusercontent.com/114018284/213541620-172d7d9b-4c0f-4035-b523-667b1d965957.png">
+
+Ejemplo 4 `md-links <nombre de la ruta> --stats --validate`:
+<img width="725" alt="Captura de Pantalla 2023-01-19 a la(s) 2 27 49 p  m" src="https://user-images.githubusercontent.com/114018284/213541670-ca2c2ed3-4e9b-4df8-817b-e44eab10d4f1.png">
+
+
+
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
